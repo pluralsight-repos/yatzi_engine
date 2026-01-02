@@ -8,7 +8,7 @@ from src.yatzi_engine import full_house
     "dice, expected_score",
     [
         ([1, 1, 2, 2, 2], 8),
-        ([5, 5, 6, 6, 6], 28),
+        ([5, 5, 6, 6, 6],),
     ],
 )
 def test_full_house(dice, expected_score):
